@@ -33,6 +33,33 @@
     <i class="fas fa-ellipsis-h"></i>
   </div>
 </template>
+<script>
+
+
+export default {
+  name: 'Tweets',
+  props: {
+    tweetTitle: {
+      type: String,
+    },
+    image: {
+      type: String,
+    },
+    handle: {
+      type: String,
+    },
+    timestamp: {
+      type: String,
+    },
+    message: {
+      type: String,
+    },
+  }
+    
+  
+}
+</script>
+
 
 <style scoped>
 a {

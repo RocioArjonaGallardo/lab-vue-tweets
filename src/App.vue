@@ -1,6 +1,12 @@
 <template>
   <div class="app">
-    <Tweet />
+    <Tweet 
+    :name="tweets.title"
+    :image="tweets.image"
+    :handle="tweets.handle"
+    :timestamp="tweets.timestamp"
+    :message="tweets.message"
+    />
   </div>
 </template>
 
